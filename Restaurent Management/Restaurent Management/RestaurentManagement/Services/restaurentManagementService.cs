@@ -17,6 +17,7 @@ namespace Restaurent_Management.RestaurentManagement.Services
 {
     public class restaurentManagementService : IRestaurentManagementService
     {
+        private string ApiKey = "5E43074A215644A790754E26FC0984C5";
         private readonly restaurentManamentContext _context;
         private readonly Serilog.ILogger _logger;
         public restaurentManagementService(restaurentManamentContext context, Serilog.ILogger logger)
